@@ -22,6 +22,7 @@ namespace MVC_20241114.Models
 
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
         public DbSet<Member> Members { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
     }
 
     //public class MyEntity

@@ -137,9 +137,14 @@
     <Compile Include="Migrations\202411131806175_AddMemberModel.Designer.cs">
       <DependentUpon>202411131806175_AddMemberModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202411131825269_AddPermissionModel.cs" />
+    <Compile Include="Migrations\202411131825269_AddPermissionModel.Designer.cs">
+      <DependentUpon>202411131825269_AddPermissionModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DbModel.cs" />
     <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\Permission.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1263,6 +1268,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202411131806175_AddMemberModel.resx">
       <DependentUpon>202411131806175_AddMemberModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202411131825269_AddPermissionModel.resx">
+      <DependentUpon>202411131825269_AddPermissionModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
